@@ -1,1 +1,15 @@
-theme: jekyll-theme-slate
+markdown: kramdown
+permalink: /:title/
+url: 
+name: 
+author: CuiHaozhi
+qq: 61755280
+email: haozhi.cui@gmail.com
+duoshuo: 
+beian:
+cnzz: 119959
+weibo: 1885061391
+github: 
+safe: true
+paginate: 20
+about: "Hello"
