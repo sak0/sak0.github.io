@@ -4,11 +4,20 @@ layout: page
 comments: no
 ---
 
+---
+### 自我介绍
+
 {{ site.about }}
+
+
+---
+### 经历
+
+
 
 ----
 
-###联系方式：
+### 联系方式：
 
 {% if site.qq %}
 ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
@@ -17,10 +26,6 @@ comments: no
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
-GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+GitHub：[http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
 
 ----
-
-{% if site.weibo %}
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
-{% endif %}
